@@ -15,7 +15,7 @@ Algoritmo AdivinarNumero
 	
 	Repetir //inicia un bucle
         Leer num //lee la opcion ingresada por el usuario
-		intentos <- intentos + 1 //suma el primer intento
+		intento <- intento + 1 //suma el primer intento
         
         Si num < numeroSecreto Entonces
             Escribir "Demasiado BAJO...."
@@ -25,7 +25,7 @@ Algoritmo AdivinarNumero
 				Escribir ""
 				Escribir "¡FELICIDADES!"
 				Escribir "El número secreto era: ", numeroSecreto
-				Escribir "Lo lograste en ", intentos, " intentos."
+				Escribir "Lo lograste en ", intento, " intentos."
 			FinSi
 		FinSi
 			Escribir ""
